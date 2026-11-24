@@ -1,5 +1,7 @@
 # zup — ZoneUPdater: Safe BIND DNS Zone Batch Updater (`v2.0.0`)
 
+![zup cover](zup-cover.webp)
+
 A modern, standalone Bash + Python 3 CLI for safely batch-updating **BIND DNS zone files** (`/var/named/*.db`) across single domains, cPanel users, or entire resellers — replacing legacy 4,217-line Perl `zup` (2012) with automatic `chmod 600` backups, automatic `named-checkzone` rollback, `YYYYMMDDnn` serial bumping, and structured `table` / `json` / `csv` outputs.
 
 ## Features

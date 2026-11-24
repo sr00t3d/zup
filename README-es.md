@@ -1,5 +1,7 @@
 # zup — ZoneUPdater: Actualizador en Lote de Zonas DNS BIND (`v2.0.0`)
 
+![zup cover](zup-cover.webp)
+
 Una CLI moderna e independiente en Bash + Python 3 para actualizar en lote **archivos de zona DNS BIND** (`/var/named/*.db`) por dominio, usuario cPanel o revendedor — reemplazando el legado en Perl `zup` (2012) con backups automáticos `chmod 600`, rollback con `named-checkzone`, incremento automático de serial `YYYYMMDDnn` y salidas `table` / `json` / `csv`.
 
 ## Características
